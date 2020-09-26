@@ -12,11 +12,11 @@
 
 ### 벤치마킹 이후 회의 결과
 
-![week3-1](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\Project\Week Confirm\images\week3-1.jpg)
+![week3-1](..\images\week3-1.jpg)
 
-![week3-2](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\Project\Week Confirm\images\week3-2.jpg)
+![week3-2](..\images\week3-2.jpg)
 
-![week3-3](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\Project\Week Confirm\images\week3-3.jpg)
+![week3-3](..\images\week3-3.jpg)
 
 
 
