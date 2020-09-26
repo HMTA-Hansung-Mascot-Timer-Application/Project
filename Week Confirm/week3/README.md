@@ -12,7 +12,7 @@
 
 ### 벤치마킹 이후 회의 결과
 
-![week3-1](..\images\week3-1.jpg)
+![week3-1](../images/week3-1.jpg)
 
 ![week3-2](..\images\week3-2.jpg)
 
