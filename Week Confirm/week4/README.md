@@ -10,9 +10,9 @@
 
 프로젝트의 가시화
 
-![KakaoTalk_20200925_232111851](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\report\week4\KakaoTalk_20200925_232111851.jpg)
+![week4-1](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\Project\Week Confirm\images\week4-1.jpg)
 
-![KakaoTalk_20200925_232112078](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\report\week4\KakaoTalk_20200925_232112078.jpg)
+![week4-2](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\Project\Week Confirm\images\week4-2.jpg)
 
 실제 프로젝트는 
 

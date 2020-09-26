@@ -12,13 +12,13 @@
 
 ### 벤치마킹 이후 회의 결과
 
-![IMG_0164](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\report\week3\IMG_0164.jpg)
+![week3-1](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\Project\Week Confirm\images\week3-1.jpg)
+
+![week3-2](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\Project\Week Confirm\images\week3-2.jpg)
+
+![week3-3](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\Project\Week Confirm\images\week3-3.jpg)
 
 
-
-![IMG_0165](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\report\week3\IMG_0165.jpg)
-
-![IMG_0166](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\report\week3\IMG_0166.jpg)
 
 ---
 
