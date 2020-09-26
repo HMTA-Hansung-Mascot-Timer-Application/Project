@@ -14,7 +14,7 @@
 
 ![week3-1](../images/week3-1.jpg)
 
-![week3-2](../imagesweek3-2.jpg)
+![week3-2](../images/week3-2.jpg)
 
 ![week3-3](../images/week3-3.jpg)
 
