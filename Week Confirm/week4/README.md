@@ -10,9 +10,9 @@
 
 프로젝트의 가시화
 
-![week4-1](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\Project\Week Confirm\images\week4-1.jpg)
+![week4-1](../images/week4-1.jpg)
 
-![week4-2](C:\Users\kyudo\OneDrive\바탕 화면\학교\진로탐색\Project\Week Confirm\images\week4-2.jpg)
+![week4-2](../images/week4-2.jpg)
 
 실제 프로젝트는 
 
