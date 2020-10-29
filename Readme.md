@@ -6,4 +6,4 @@
 
 </br>
 
-- ##  [주차별 스터디](https://github.com/HMTA-Hansung-Mascot-Timer-Application/Project/tree/master/Week%20Confirm)
+- ##  [주차별 스터디](https://github.com/HMTA-Hansung-Mascot-Timer-Application/Project/tree/master/Week_Confirm)
