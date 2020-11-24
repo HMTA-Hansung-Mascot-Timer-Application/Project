@@ -4,26 +4,32 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgro"
     tools:context=".SettingActivity">
-
-    <TextView
-        android:id="@+id/txt_timer"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/edit_subject"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="74dp"
-        android:text="타이머 설정"
-        android:textSize="36sp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="13dp"
+        android:ems="10"
+        android:hint="ex) 안드로이드 프로그래밍"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_confirm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 
     <RadioGroup
         android:id="@+id/radioGroup2"
-        android:layout_width="234dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="70dp"
-        android:layout_marginBottom="58dp"
-        app:layout_constraintBottom_toTopOf="@+id/txt_subject"
+        android:layout_width="251dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintBottom_toTopOf="@+id/edit_subject"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pbr_step">
 
@@ -31,101 +37,111 @@
             android:id="@+id/rbtn_step1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="2 hours" />
+            android:text="2 hours"
+            android:textSize="12dp" />
 
         <RadioButton
             android:id="@+id/rbtn_step2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="4 hours" />
+            android:text="4 hours"
+            android:textSize="12dp" />
 
         <RadioButton
             android:id="@+id/rbtn_step3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="6 hours" />
+            android:text="6 hours"
+            android:textSize="10dp" />
 
         <RadioButton
             android:id="@+id/rbtn_step4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="8 hours" />
+            android:text="8 hours"
+            android:textSize="10dp" />
 
         <RadioButton
             android:id="@+id/rbtn_step5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="10 hours" />
+            android:text="10 hours"
+            android:textSize="12dp" />
     </RadioGroup>
 
-    <TextView
-        android:id="@+id/txt_step"
+    <Button
+        android:id="@+id/btn_cancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
-        android:layout_marginBottom="19dp"
-        android:text="단계"
-        android:textSize="24sp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="69dp"
+        android:text="취소"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_confirm"
+        app:layout_constraintTop_toBottomOf="@+id/edit_subject" />
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="38dp"
+        android:text="설정 완료"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cancel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_subject" />
+
+    <TextView
+        android:id="@+id/txt_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginBottom="38dp"
+        android:text="타이머 설정"
+        android:textSize="36dp"
         app:layout_constraintBottom_toTopOf="@+id/pbr_step"
-        app:layout_constraintStart_toStartOf="@+id/pbr_step"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ProgressBar
         android:id="@+id/pbr_step"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="235dp"
-        android:layout_marginBottom="364dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_cancel"
-        app:layout_constraintEnd_toEndOf="@+id/radioGroup2"
-        app:layout_constraintStart_toStartOf="@+id/radioGroup2"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_step" />
 
-    <EditText
-        android:id="@+id/edit_subject"
+    <TextView
+        android:id="@+id/txt_step"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginBottom="42dp"
-        android:ems="10"
-        android:hint="ex) 안드로이드 프로그래밍"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/btn_confirm"
-        app:layout_constraintStart_toStartOf="@+id/txt_subject"
-        app:layout_constraintTop_toBottomOf="@+id/txt_subject" />
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="5dp"
+        android:text="단계"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/txt_timer"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txt_subject"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="73dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginBottom="12dp"
         android:text="과목"
-        android:textSize="24sp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/edit_subject"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
+        app:layout_constraintEnd_toEndOf="@+id/btn_confirm"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/btn_cancel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="11dp"
-        android:layout_marginBottom="51dp"
-        android:text="취소"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/btn_confirm" />
-
-    <Button
-        android:id="@+id/btn_confirm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="51dp"
-        android:text="설정 완료"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_cancel"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_subject" />
 </androidx.constraintlayout.widget.ConstraintLayout>

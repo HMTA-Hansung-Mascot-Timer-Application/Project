@@ -15,7 +15,7 @@ public class EnrollActivitiy extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_enroll);
 
-        btn_confirm =(Button)findViewById(R.id.btn_confirm);
+        btn_confirm =(Button)findViewById(R.id.btn_start_start);
         btn_confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

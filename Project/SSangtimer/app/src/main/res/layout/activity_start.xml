@@ -4,41 +4,116 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/testimg"
     tools:context=".StartActivity">
 
     <Button
-        android:id="@+id/btn_confirm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="87dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginBottom="68dp"
-        android:text="메인으로"
+
+        android:id="@+id/btn_start_stop"
+        android:layout_width="57dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/startbuttonshape"
+        android:text="||"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btn_cancel"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/btn_start_start"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.343" />
 
     <Button
-        android:id="@+id/btn_cancel"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="63dp"
-        android:layout_marginBottom="68dp"
-        android:text="일시 정지"
+
+        android:id="@+id/btn_start_start"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="87dp"
+        android:background="@drawable/puasebuttonshape"
+        android:text="▶"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.344" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txt_start_hours"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="224dp"
-        android:text="미정"
-        android:textSize="36sp"
+        android:text="목표 시간 :"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_start_time"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <TextView
+        android:id="@+id/txt_start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="00 : 00"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_start_start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/txt_start_goalhours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hours"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_start_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.031"
+        app:layout_constraintStart_toEndOf="@+id/txt_start_hours"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.503" />
+
+    <Button
+        android:id="@+id/btn_start_refresh"
+        android:layout_width="57dp"
+        android:layout_height="61dp"
+        android:background="@drawable/startbuttonshape"
+        android:text="■"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toEndOf="@+id/btn_start_stop"
+        app:layout_constraintTop_toBottomOf="@+id/txt_start_time"
+        app:layout_constraintVertical_bias="0.065" />
+
+    <TextView
+        android:id="@+id/txt_start_goalsubject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="subject"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_start_goalhours"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toEndOf="@+id/txt_start_subject"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <TextView
+        android:id="@+id/txt_start_subject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:text="과목 : "
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_start_hours"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
